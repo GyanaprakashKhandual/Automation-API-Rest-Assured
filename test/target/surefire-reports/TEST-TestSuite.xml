@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="5.91" tests="19" errors="0" skipped="0" failures="19">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="6.962" tests="19" errors="0" skipped="0" failures="19">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Users\gyana\AppData\Local\Programs\Eclipse Adoptium\jdk-17.0.16.8-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\gyana\AppData\Local\Temp\surefire10992156312384009652\surefirebooter-20250922160230545_3.jar C:\Users\gyana\AppData\Local\Temp\surefire10992156312384009652 2025-09-22T16-02-29_939-jvmRun1 surefire-20250922160230545_1tmp surefire_0-20250922160230545_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\gyana\AppData\Local\Temp\surefire4300784289396784137\surefirebooter-20250922161220665_3.jar C:\Users\gyana\AppData\Local\Temp\surefire4300784289396784137 2025-09-22T16-12-20_142-jvmRun1 surefire-20250922161220665_1tmp surefire_0-20250922161220665_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\gyana\Rest-Assured\test\target\test-classes;C:\Users\gyana\Rest-Assured\test\target\classes;C:\Users\gyana\.m2\repository\io\rest-assured\rest-assured\5.5.6\rest-assured-5.5.6.jar;C:\Users\gyana\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\gyana\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\gyana\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\gyana\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\gyana\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\gyana\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\gyana\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\gyana\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\gyana\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\gyana\.m2\repository\io\rest-assured\json-path\5.5.6\json-path-5.5.6.jar;C:\Users\gyana\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\gyana\.m2\repository\io\rest-assured\rest-assured-common\5.5.6\rest-assured-common-5.5.6.jar;C:\Users\gyana\.m2\repository\io\rest-assured\xml-path\5.5.6\xml-path-5.5.6.jar;C:\Users\gyana\.m2\repository\org\apache\commons\commons-lang3\3.18.0\commons-lang3-3.18.0.jar;C:\Users\gyana\.m2\repository\io\cucumber\cucumber-java\7.28.2\cucumber-java-7.28.2.jar;C:\Users\gyana\.m2\repository\io\cucumber\cucumber-core\7.28.2\cucumber-core-7.28.2.jar;C:\Users\gyana\.m2\repository\io\cucumber\cucumber-gherkin\7.28.2\cucumber-gherkin-7.28.2.jar;C:\Users\gyana\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.28.2\cucumber-gherkin-messages-7.28.2.jar;C:\Users\gyana\.m2\repository\io\cucumber\gherkin\34.0.0\gherkin-34.0.0.jar;C:\Users\gyana\.m2\repository\org\assertj\assertj-core\3.27.4\assertj-core-3.27.4.jar;C:\Users\gyana\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\gyana\.m2\repository\io\cucumber\messages\28.1.0\messages-28.1.0.jar;C:\Users\gyana\.m2\repository\io\cucumber\pretty-formatter\2.1.0\pretty-formatter-2.1.0.jar;C:\Users\gyana\.m2\repository\io\cucumber\query\13.6.0\query-13.6.0.jar;C:\Users\gyana\.m2\repository\io\cucumber\testng-xml-formatter\0.5.0\testng-xml-formatter-0.5.0.jar;C:\Users\gyana\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\gyana\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\gyana\.m2\repository\io\cucumber\cucumber-json-formatter\0.1.3\cucumber-json-formatter-0.1.3.jar;C:\Users\gyana\.m2\repository\com\networknt\json-schema-validator\1.5.8\json-schema-validator-1.5.8.jar;C:\Users\gyana\.m2\repository\com\ethlo\time\itu\1.10.3\itu-1.10.3.jar;C:\Users\gyana\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.18.3\jackson-dataformat-yaml-2.18.3.jar;C:\Users\gyana\.m2\repository\org\yaml\snakeyaml\2.3\snakeyaml-2.3.jar;C:\Users\gyana\.m2\repository\io\cucumber\datatable\7.28.2\datatable-7.28.2.jar;C:\Users\gyana\.m2\repository\io\cucumber\cucumber-plugin\7.28.2\cucumber-plugin-7.28.2.jar;C:\Users\gyana\.m2\repository\io\cucumber\docstring\7.28.2\docstring-7.28.2.jar;C:\Users\gyana\.m2\repository\io\cucumber\html-formatter\21.13.0\html-formatter-21.13.0.jar;C:\Users\gyana\.m2\repository\io\cucumber\junit-xml-formatter\0.8.1\junit-xml-formatter-0.8.1.jar;C:\Users\gyana\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\gyana\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\gyana\.m2\repository\io\cucumber\cucumber-testng\7.28.2\cucumber-testng-7.28.2.jar;C:\Users\gyana\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\gyana\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\gyana\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\gyana\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\gyana\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\gyana\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\gyana\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\gyana\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\gyana\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\gyana\.m2\repository\com\aventstack\extentreports-cucumber4-adapter\1.2.1\extentreports-cucumber4-adapter-1.2.1.jar;C:\Users\gyana\.m2\repository\com\aventstack\klov-reporter\5.0.1\klov-reporter-5.0.1.jar;C:\Users\gyana\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\gyana\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\gyana\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\gyana\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\gyana\.m2\repository\org\slf4j\slf4j-simple\2.1.0-alpha1\slf4j-simple-2.1.0-alpha1.jar;C:\Users\gyana\.m2\repository\org\projectlombok\lombok\1.18.42\lombok-1.18.42.jar;C:\Users\gyana\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Users\gyana\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\gyana\AppData\Local\Temp\surefire10992156312384009652\surefirebooter-20250922160230545_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\gyana\AppData\Local\Temp\surefire4300784289396784137\surefirebooter-20250922161220665_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.16+8"/>
@@ -58,7 +58,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="runScenario[&quot;Create a new TODO successfully&quot;, &quot;TODO API Tests&quot;](1)" classname="com.nexly.api.runners.TestRunner" time="2.368">
+  <testcase name="runScenario[&quot;Create a new TODO successfully&quot;, &quot;TODO API Tests&quot;](1)" classname="com.nexly.api.runners.TestRunner" time="2.995">
     <failure message="Failed to send POST request to /" type="java.lang.RuntimeException"><![CDATA[java.lang.RuntimeException: Failed to send POST request to /
 	at com.nexly.api.stepDefinitions.TodoApiStepDefinitions.iSendARequestTo(TodoApiStepDefinitions.java:275)
 	at ✽.I send a POST request to "/"(file:///C:/Users/gyana/Rest-Assured/test/src/main/resources/feature/app.feature:14)
@@ -291,7 +291,7 @@ Finished scenario: Create a new TODO successfully with status: FAILED
     <system-err><![CDATA[[main] INFO org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Create TODO with invalid data should fail&quot;, &quot;TODO API Tests&quot;](2)" classname="com.nexly.api.runners.TestRunner" time="0.053">
+  <testcase name="runScenario[&quot;Create TODO with invalid data should fail&quot;, &quot;TODO API Tests&quot;](2)" classname="com.nexly.api.runners.TestRunner" time="0.046">
     <failure message="Failed to send POST request to /" type="java.lang.RuntimeException"><![CDATA[java.lang.RuntimeException: Failed to send POST request to /
 	at com.nexly.api.stepDefinitions.TodoApiStepDefinitions.iSendARequestTo(TodoApiStepDefinitions.java:275)
 	at ✽.I send a POST request to "/"(file:///C:/Users/gyana/Rest-Assured/test/src/main/resources/feature/app.feature:25)
@@ -485,7 +485,7 @@ Starting scenario: Create TODO with invalid data should fail
 Finished scenario: Create TODO with invalid data should fail with status: FAILED
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Get all TODOs successfully&quot;, &quot;TODO API Tests&quot;](3)" classname="com.nexly.api.runners.TestRunner" time="0.041">
+  <testcase name="runScenario[&quot;Get all TODOs successfully&quot;, &quot;TODO API Tests&quot;](3)" classname="com.nexly.api.runners.TestRunner" time="0.063">
     <failure message="Connection refused: connect" type="java.net.ConnectException"><![CDATA[java.net.ConnectException: Connection refused: connect
 	at java.base/sun.nio.ch.Net.connect0(Native Method)
 	at java.base/sun.nio.ch.Net.connect(Net.java:579)
@@ -674,7 +674,7 @@ Starting scenario: Get all TODOs successfully
 Finished scenario: Get all TODOs successfully with status: FAILED
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Get TODOs with workType filter&quot;, &quot;TODO API Tests&quot;](4)" classname="com.nexly.api.runners.TestRunner" time="0.04">
+  <testcase name="runScenario[&quot;Get TODOs with workType filter&quot;, &quot;TODO API Tests&quot;](4)" classname="com.nexly.api.runners.TestRunner" time="0.057">
     <failure message="Connection refused: connect" type="java.net.ConnectException"><![CDATA[java.net.ConnectException: Connection refused: connect
 	at java.base/sun.nio.ch.Net.connect0(Native Method)
 	at java.base/sun.nio.ch.Net.connect(Net.java:579)
@@ -861,7 +861,7 @@ Starting scenario: Get TODOs with workType filter
 Finished scenario: Get TODOs with workType filter with status: FAILED
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Get TODOs with pagination&quot;, &quot;TODO API Tests&quot;](5)" classname="com.nexly.api.runners.TestRunner" time="0.03">
+  <testcase name="runScenario[&quot;Get TODOs with pagination&quot;, &quot;TODO API Tests&quot;](5)" classname="com.nexly.api.runners.TestRunner" time="0.028">
     <failure message="Connection refused: connect" type="java.net.ConnectException"><![CDATA[java.net.ConnectException: Connection refused: connect
 	at java.base/sun.nio.ch.Net.connect0(Native Method)
 	at java.base/sun.nio.ch.Net.connect(Net.java:579)
@@ -1048,7 +1048,7 @@ Starting scenario: Get TODOs with pagination
 Finished scenario: Get TODOs with pagination with status: FAILED
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Search TODOs by description&quot;, &quot;TODO API Tests&quot;](6)" classname="com.nexly.api.runners.TestRunner" time="0.034">
+  <testcase name="runScenario[&quot;Search TODOs by description&quot;, &quot;TODO API Tests&quot;](6)" classname="com.nexly.api.runners.TestRunner" time="0.031">
     <failure message="Connection refused: connect" type="java.net.ConnectException"><![CDATA[java.net.ConnectException: Connection refused: connect
 	at java.base/sun.nio.ch.Net.connect0(Native Method)
 	at java.base/sun.nio.ch.Net.connect(Net.java:579)
@@ -1235,7 +1235,7 @@ Starting scenario: Search TODOs by description
 Finished scenario: Search TODOs by description with status: FAILED
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Get single TODO by ID successfully&quot;, &quot;TODO API Tests&quot;](7)" classname="com.nexly.api.runners.TestRunner" time="0.03">
+  <testcase name="runScenario[&quot;Get single TODO by ID successfully&quot;, &quot;TODO API Tests&quot;](7)" classname="com.nexly.api.runners.TestRunner" time="0.038">
     <failure message="Connection refused: connect" type="java.net.ConnectException"><![CDATA[java.net.ConnectException: Connection refused: connect
 	at java.base/sun.nio.ch.Net.connect0(Native Method)
 	at java.base/sun.nio.ch.Net.connect(Net.java:579)
@@ -1422,7 +1422,7 @@ Starting scenario: Get single TODO by ID successfully
 Finished scenario: Get single TODO by ID successfully with status: FAILED
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Get single TODO with invalid ID should fail&quot;, &quot;TODO API Tests&quot;](8)" classname="com.nexly.api.runners.TestRunner" time="0.041">
+  <testcase name="runScenario[&quot;Get single TODO with invalid ID should fail&quot;, &quot;TODO API Tests&quot;](8)" classname="com.nexly.api.runners.TestRunner" time="0.035">
     <failure message="Failed to send GET request to /507f1f77bcf86cd799439011" type="java.lang.RuntimeException"><![CDATA[java.lang.RuntimeException: Failed to send GET request to /507f1f77bcf86cd799439011
 	at com.nexly.api.stepDefinitions.TodoApiStepDefinitions.iSendARequestTo(TodoApiStepDefinitions.java:275)
 	at ✽.I send a GET request to "/507f1f77bcf86cd799439011"(file:///C:/Users/gyana/Rest-Assured/test/src/main/resources/feature/app.feature:73)
@@ -1659,7 +1659,7 @@ Starting scenario: Get single TODO with invalid ID should fail
 Finished scenario: Get single TODO with invalid ID should fail with status: FAILED
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Update TODO successfully&quot;, &quot;TODO API Tests&quot;](9)" classname="com.nexly.api.runners.TestRunner" time="0.099">
+  <testcase name="runScenario[&quot;Update TODO successfully&quot;, &quot;TODO API Tests&quot;](9)" classname="com.nexly.api.runners.TestRunner" time="0.101">
     <failure message="Connection refused: connect" type="java.net.ConnectException"><![CDATA[java.net.ConnectException: Connection refused: connect
 	at java.base/sun.nio.ch.Net.connect0(Native Method)
 	at java.base/sun.nio.ch.Net.connect(Net.java:579)
@@ -1851,7 +1851,7 @@ Starting scenario: Update TODO successfully
 Finished scenario: Update TODO successfully with status: FAILED
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Update non-existent TODO should fail&quot;, &quot;TODO API Tests&quot;](10)" classname="com.nexly.api.runners.TestRunner" time="0.026">
+  <testcase name="runScenario[&quot;Update non-existent TODO should fail&quot;, &quot;TODO API Tests&quot;](10)" classname="com.nexly.api.runners.TestRunner" time="0.024">
     <failure message="Failed to send PUT request to /507f1f77bcf86cd799439011" type="java.lang.RuntimeException"><![CDATA[java.lang.RuntimeException: Failed to send PUT request to /507f1f77bcf86cd799439011
 	at com.nexly.api.stepDefinitions.TodoApiStepDefinitions.iSendARequestTo(TodoApiStepDefinitions.java:275)
 	at ✽.I send a PUT request to "/507f1f77bcf86cd799439011"(file:///C:/Users/gyana/Rest-Assured/test/src/main/resources/feature/app.feature:94)
@@ -2080,7 +2080,7 @@ Starting scenario: Update non-existent TODO should fail
 Finished scenario: Update non-existent TODO should fail with status: FAILED
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Update TODO with invalid data should fail&quot;, &quot;TODO API Tests&quot;](11)" classname="com.nexly.api.runners.TestRunner" time="0.027">
+  <testcase name="runScenario[&quot;Update TODO with invalid data should fail&quot;, &quot;TODO API Tests&quot;](11)" classname="com.nexly.api.runners.TestRunner" time="0.035">
     <failure message="Connection refused: connect" type="java.net.ConnectException"><![CDATA[java.net.ConnectException: Connection refused: connect
 	at java.base/sun.nio.ch.Net.connect0(Native Method)
 	at java.base/sun.nio.ch.Net.connect(Net.java:579)
@@ -2268,7 +2268,7 @@ Starting scenario: Update TODO with invalid data should fail
 Finished scenario: Update TODO with invalid data should fail with status: FAILED
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Delete TODO successfully&quot;, &quot;TODO API Tests&quot;](12)" classname="com.nexly.api.runners.TestRunner" time="0.023">
+  <testcase name="runScenario[&quot;Delete TODO successfully&quot;, &quot;TODO API Tests&quot;](12)" classname="com.nexly.api.runners.TestRunner" time="0.029">
     <failure message="Connection refused: connect" type="java.net.ConnectException"><![CDATA[java.net.ConnectException: Connection refused: connect
 	at java.base/sun.nio.ch.Net.connect0(Native Method)
 	at java.base/sun.nio.ch.Net.connect(Net.java:579)
@@ -2454,7 +2454,7 @@ Starting scenario: Delete TODO successfully
 Finished scenario: Delete TODO successfully with status: FAILED
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Delete non-existent TODO should fail&quot;, &quot;TODO API Tests&quot;](13)" classname="com.nexly.api.runners.TestRunner" time="0.025">
+  <testcase name="runScenario[&quot;Delete non-existent TODO should fail&quot;, &quot;TODO API Tests&quot;](13)" classname="com.nexly.api.runners.TestRunner" time="0.036">
     <failure message="Failed to send DELETE request to /507f1f77bcf86cd799439011" type="java.lang.RuntimeException"><![CDATA[java.lang.RuntimeException: Failed to send DELETE request to /507f1f77bcf86cd799439011
 	at com.nexly.api.stepDefinitions.TodoApiStepDefinitions.iSendARequestTo(TodoApiStepDefinitions.java:275)
 	at ✽.I send a DELETE request to "/507f1f77bcf86cd799439011"(file:///C:/Users/gyana/Rest-Assured/test/src/main/resources/feature/app.feature:116)
@@ -2681,7 +2681,7 @@ Starting scenario: Delete non-existent TODO should fail
 Finished scenario: Delete non-existent TODO should fail with status: FAILED
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Get TODO statistics successfully&quot;, &quot;TODO API Tests&quot;](14)" classname="com.nexly.api.runners.TestRunner" time="0.026">
+  <testcase name="runScenario[&quot;Get TODO statistics successfully&quot;, &quot;TODO API Tests&quot;](14)" classname="com.nexly.api.runners.TestRunner" time="0.036">
     <failure message="Connection refused: connect" type="java.net.ConnectException"><![CDATA[java.net.ConnectException: Connection refused: connect
 	at java.base/sun.nio.ch.Net.connect0(Native Method)
 	at java.base/sun.nio.ch.Net.connect(Net.java:579)
@@ -2874,7 +2874,7 @@ Starting scenario: Get TODO statistics successfully
 Finished scenario: Get TODO statistics successfully with status: FAILED
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Filter TODOs by priority&quot;, &quot;TODO API Tests&quot;](15)" classname="com.nexly.api.runners.TestRunner" time="0.023">
+  <testcase name="runScenario[&quot;Filter TODOs by priority&quot;, &quot;TODO API Tests&quot;](15)" classname="com.nexly.api.runners.TestRunner" time="0.019">
     <failure message="Connection refused: connect" type="java.net.ConnectException"><![CDATA[java.net.ConnectException: Connection refused: connect
 	at java.base/sun.nio.ch.Net.connect0(Native Method)
 	at java.base/sun.nio.ch.Net.connect(Net.java:579)
@@ -3061,7 +3061,7 @@ Starting scenario: Filter TODOs by priority
 Finished scenario: Filter TODOs by priority with status: FAILED
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Filter TODOs by status&quot;, &quot;TODO API Tests&quot;](16)" classname="com.nexly.api.runners.TestRunner" time="0.047">
+  <testcase name="runScenario[&quot;Filter TODOs by status&quot;, &quot;TODO API Tests&quot;](16)" classname="com.nexly.api.runners.TestRunner" time="0.057">
     <failure message="Connection refused: connect" type="java.net.ConnectException"><![CDATA[java.net.ConnectException: Connection refused: connect
 	at java.base/sun.nio.ch.Net.connect0(Native Method)
 	at java.base/sun.nio.ch.Net.connect(Net.java:579)
@@ -3248,7 +3248,7 @@ Starting scenario: Filter TODOs by status
 Finished scenario: Filter TODOs by status with status: FAILED
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Filter TODOs by date range&quot;, &quot;TODO API Tests&quot;](17)" classname="com.nexly.api.runners.TestRunner" time="0.033">
+  <testcase name="runScenario[&quot;Filter TODOs by date range&quot;, &quot;TODO API Tests&quot;](17)" classname="com.nexly.api.runners.TestRunner" time="0.02">
     <failure message="Connection refused: connect" type="java.net.ConnectException"><![CDATA[java.net.ConnectException: Connection refused: connect
 	at java.base/sun.nio.ch.Net.connect0(Native Method)
 	at java.base/sun.nio.ch.Net.connect(Net.java:579)
@@ -3429,7 +3429,7 @@ Starting scenario: Filter TODOs by date range
 Finished scenario: Filter TODOs by date range with status: FAILED
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Apply multiple filters simultaneously&quot;, &quot;TODO API Tests&quot;](18)" classname="com.nexly.api.runners.TestRunner" time="0.036">
+  <testcase name="runScenario[&quot;Apply multiple filters simultaneously&quot;, &quot;TODO API Tests&quot;](18)" classname="com.nexly.api.runners.TestRunner" time="0.025">
     <failure message="Connection refused: connect" type="java.net.ConnectException"><![CDATA[java.net.ConnectException: Connection refused: connect
 	at java.base/sun.nio.ch.Net.connect0(Native Method)
 	at java.base/sun.nio.ch.Net.connect(Net.java:579)
@@ -3612,7 +3612,7 @@ Starting scenario: Apply multiple filters simultaneously
 Finished scenario: Apply multiple filters simultaneously with status: FAILED
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Access API without authorization should fail&quot;, &quot;TODO API Tests&quot;](19)" classname="com.nexly.api.runners.TestRunner" time="0.025">
+  <testcase name="runScenario[&quot;Access API without authorization should fail&quot;, &quot;TODO API Tests&quot;](19)" classname="com.nexly.api.runners.TestRunner" time="0.017">
     <failure message="Failed to send GET request to /" type="java.lang.RuntimeException"><![CDATA[java.lang.RuntimeException: Failed to send GET request to /
 	at com.nexly.api.stepDefinitions.TodoApiStepDefinitions.iSendARequestTo(TodoApiStepDefinitions.java:275)
 	at ✽.I send a GET request to "/"(file:///C:/Users/gyana/Rest-Assured/test/src/main/resources/feature/app.feature:171)
