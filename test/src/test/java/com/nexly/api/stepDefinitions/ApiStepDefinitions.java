@@ -40,11 +40,4 @@ public class ApiStepDefinitions {
         Assert.assertTrue(responseBody.contains(expectedText),
                 "Response body does not contain: " + expectedText + ". Actual response: " + responseBody);
     }
-
-    @Then("the response content type should be {string}")
-    public void the_response_content_type_should_be(String expectedContentType) {
-        String actualContentType = response.getContentType();
-        Assert.assertTrue(actualContentType.contains(expectedContentType),
-                "Expected content type: " + expectedContentType + " but got: " + actualContentType);
-    }
 }

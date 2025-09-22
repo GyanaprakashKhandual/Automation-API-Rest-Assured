@@ -1,0 +1,1340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="5.851" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\gyana\Rest-Assured\test\target\test-classes;C:\Users\gyana\Rest-Assured\test\target\classes;C:\Users\gyana\.m2\repository\io\rest-assured\rest-assured\5.5.6\rest-assured-5.5.6.jar;C:\Users\gyana\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\gyana\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\gyana\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\gyana\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\gyana\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\gyana\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\gyana\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\gyana\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\gyana\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\gyana\.m2\repository\io\rest-assured\json-path\5.5.6\json-path-5.5.6.jar;C:\Users\gyana\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\gyana\.m2\repository\io\rest-assured\rest-assured-common\5.5.6\rest-assured-common-5.5.6.jar;C:\Users\gyana\.m2\repository\io\rest-assured\xml-path\5.5.6\xml-path-5.5.6.jar;C:\Users\gyana\.m2\repository\org\apache\commons\commons-lang3\3.18.0\commons-lang3-3.18.0.jar;C:\Users\gyana\.m2\repository\io\cucumber\cucumber-java\7.28.2\cucumber-java-7.28.2.jar;C:\Users\gyana\.m2\repository\io\cucumber\cucumber-core\7.28.2\cucumber-core-7.28.2.jar;C:\Users\gyana\.m2\repository\io\cucumber\cucumber-gherkin\7.28.2\cucumber-gherkin-7.28.2.jar;C:\Users\gyana\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.28.2\cucumber-gherkin-messages-7.28.2.jar;C:\Users\gyana\.m2\repository\io\cucumber\gherkin\34.0.0\gherkin-34.0.0.jar;C:\Users\gyana\.m2\repository\org\assertj\assertj-core\3.27.4\assertj-core-3.27.4.jar;C:\Users\gyana\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\gyana\.m2\repository\io\cucumber\messages\28.1.0\messages-28.1.0.jar;C:\Users\gyana\.m2\repository\io\cucumber\pretty-formatter\2.1.0\pretty-formatter-2.1.0.jar;C:\Users\gyana\.m2\repository\io\cucumber\query\13.6.0\query-13.6.0.jar;C:\Users\gyana\.m2\repository\io\cucumber\testng-xml-formatter\0.5.0\testng-xml-formatter-0.5.0.jar;C:\Users\gyana\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\gyana\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\gyana\.m2\repository\io\cucumber\cucumber-json-formatter\0.1.3\cucumber-json-formatter-0.1.3.jar;C:\Users\gyana\.m2\repository\com\networknt\json-schema-validator\1.5.8\json-schema-validator-1.5.8.jar;C:\Users\gyana\.m2\repository\com\ethlo\time\itu\1.10.3\itu-1.10.3.jar;C:\Users\gyana\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.18.3\jackson-dataformat-yaml-2.18.3.jar;C:\Users\gyana\.m2\repository\org\yaml\snakeyaml\2.3\snakeyaml-2.3.jar;C:\Users\gyana\.m2\repository\io\cucumber\datatable\7.28.2\datatable-7.28.2.jar;C:\Users\gyana\.m2\repository\io\cucumber\cucumber-plugin\7.28.2\cucumber-plugin-7.28.2.jar;C:\Users\gyana\.m2\repository\io\cucumber\docstring\7.28.2\docstring-7.28.2.jar;C:\Users\gyana\.m2\repository\io\cucumber\html-formatter\21.13.0\html-formatter-21.13.0.jar;C:\Users\gyana\.m2\repository\io\cucumber\junit-xml-formatter\0.8.1\junit-xml-formatter-0.8.1.jar;C:\Users\gyana\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\gyana\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\gyana\.m2\repository\io\cucumber\cucumber-testng\7.28.2\cucumber-testng-7.28.2.jar;C:\Users\gyana\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\gyana\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\gyana\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\gyana\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\gyana\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\gyana\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\gyana\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\gyana\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\gyana\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\gyana\.m2\repository\com\aventstack\extentreports-cucumber4-adapter\1.2.1\extentreports-cucumber4-adapter-1.2.1.jar;C:\Users\gyana\.m2\repository\com\aventstack\klov-reporter\5.0.1\klov-reporter-5.0.1.jar;C:\Users\gyana\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\gyana\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\gyana\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\gyana\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.20.0\jackson-databind-2.20.0.jar;C:\Users\gyana\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.20\jackson-annotations-2.20.jar;C:\Users\gyana\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.20.0\jackson-core-2.20.0.jar;C:\Users\gyana\.m2\repository\org\slf4j\slf4j-simple\2.1.0-alpha1\slf4j-simple-2.1.0-alpha1.jar;C:\Users\gyana\.m2\repository\org\projectlombok\lombok\1.18.42\lombok-1.18.42.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Users\gyana\AppData\Local\Programs\Eclipse Adoptium\jdk-17.0.16.8-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\gyana\AppData\Local\Temp\surefire1849923274481896721\surefirebooter-20250922112008903_3.jar C:\Users\gyana\AppData\Local\Temp\surefire1849923274481896721 2025-09-22T11-20-08_406-jvmRun1 surefire-20250922112008903_1tmp surefire_0-20250922112008903_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\gyana\Rest-Assured\test\target\test-classes;C:\Users\gyana\Rest-Assured\test\target\classes;C:\Users\gyana\.m2\repository\io\rest-assured\rest-assured\5.5.6\rest-assured-5.5.6.jar;C:\Users\gyana\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\gyana\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\gyana\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\gyana\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\gyana\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\gyana\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\gyana\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\gyana\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\gyana\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\gyana\.m2\repository\io\rest-assured\json-path\5.5.6\json-path-5.5.6.jar;C:\Users\gyana\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\gyana\.m2\repository\io\rest-assured\rest-assured-common\5.5.6\rest-assured-common-5.5.6.jar;C:\Users\gyana\.m2\repository\io\rest-assured\xml-path\5.5.6\xml-path-5.5.6.jar;C:\Users\gyana\.m2\repository\org\apache\commons\commons-lang3\3.18.0\commons-lang3-3.18.0.jar;C:\Users\gyana\.m2\repository\io\cucumber\cucumber-java\7.28.2\cucumber-java-7.28.2.jar;C:\Users\gyana\.m2\repository\io\cucumber\cucumber-core\7.28.2\cucumber-core-7.28.2.jar;C:\Users\gyana\.m2\repository\io\cucumber\cucumber-gherkin\7.28.2\cucumber-gherkin-7.28.2.jar;C:\Users\gyana\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.28.2\cucumber-gherkin-messages-7.28.2.jar;C:\Users\gyana\.m2\repository\io\cucumber\gherkin\34.0.0\gherkin-34.0.0.jar;C:\Users\gyana\.m2\repository\org\assertj\assertj-core\3.27.4\assertj-core-3.27.4.jar;C:\Users\gyana\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\gyana\.m2\repository\io\cucumber\messages\28.1.0\messages-28.1.0.jar;C:\Users\gyana\.m2\repository\io\cucumber\pretty-formatter\2.1.0\pretty-formatter-2.1.0.jar;C:\Users\gyana\.m2\repository\io\cucumber\query\13.6.0\query-13.6.0.jar;C:\Users\gyana\.m2\repository\io\cucumber\testng-xml-formatter\0.5.0\testng-xml-formatter-0.5.0.jar;C:\Users\gyana\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\gyana\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\gyana\.m2\repository\io\cucumber\cucumber-json-formatter\0.1.3\cucumber-json-formatter-0.1.3.jar;C:\Users\gyana\.m2\repository\com\networknt\json-schema-validator\1.5.8\json-schema-validator-1.5.8.jar;C:\Users\gyana\.m2\repository\com\ethlo\time\itu\1.10.3\itu-1.10.3.jar;C:\Users\gyana\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.18.3\jackson-dataformat-yaml-2.18.3.jar;C:\Users\gyana\.m2\repository\org\yaml\snakeyaml\2.3\snakeyaml-2.3.jar;C:\Users\gyana\.m2\repository\io\cucumber\datatable\7.28.2\datatable-7.28.2.jar;C:\Users\gyana\.m2\repository\io\cucumber\cucumber-plugin\7.28.2\cucumber-plugin-7.28.2.jar;C:\Users\gyana\.m2\repository\io\cucumber\docstring\7.28.2\docstring-7.28.2.jar;C:\Users\gyana\.m2\repository\io\cucumber\html-formatter\21.13.0\html-formatter-21.13.0.jar;C:\Users\gyana\.m2\repository\io\cucumber\junit-xml-formatter\0.8.1\junit-xml-formatter-0.8.1.jar;C:\Users\gyana\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\gyana\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\gyana\.m2\repository\io\cucumber\cucumber-testng\7.28.2\cucumber-testng-7.28.2.jar;C:\Users\gyana\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\gyana\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\gyana\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\gyana\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\gyana\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\gyana\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\gyana\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\gyana\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\gyana\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\gyana\.m2\repository\com\aventstack\extentreports-cucumber4-adapter\1.2.1\extentreports-cucumber4-adapter-1.2.1.jar;C:\Users\gyana\.m2\repository\com\aventstack\klov-reporter\5.0.1\klov-reporter-5.0.1.jar;C:\Users\gyana\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\gyana\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\gyana\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\gyana\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.20.0\jackson-databind-2.20.0.jar;C:\Users\gyana\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.20\jackson-annotations-2.20.jar;C:\Users\gyana\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.20.0\jackson-core-2.20.0.jar;C:\Users\gyana\.m2\repository\org\slf4j\slf4j-simple\2.1.0-alpha1\slf4j-simple-2.1.0-alpha1.jar;C:\Users\gyana\.m2\repository\org\projectlombok\lombok\1.18.42\lombok-1.18.42.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\gyana"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-07-15"/>
+    <property name="java.home" value="C:\Users\gyana\AppData\Local\Programs\Eclipse Adoptium\jdk-17.0.16.8-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\gyana\Rest-Assured\test"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\gyana\AppData\Local\Temp\surefire1849923274481896721\surefirebooter-20250922112008903_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.16+8"/>
+    <property name="user.name" value="gyana"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.16+8"/>
+    <property name="localRepository" value="C:\Users\gyana\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\gyana\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.16"/>
+    <property name="user.dir" value="C:\Users\gyana\Rest-Assured\test"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\gyana\AppData\Local\Programs\Eclipse Adoptium\jdk-17.0.16.8-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\ProgramData\chocolatey\bin;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.9\bin;C:\Users\gyana\Downloads\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Program Files\Go\bin;C:\Users\gyana\AppData\Local\Android\Sdk\emulator;C:\Users\gyana\AppData\Local\Android\Sdk\platform-tools;C:\Users\gyana\AppData\Local\Android\Sdk\cmdline-tools\latest\bin;C:\Users\gyana\Downloads\allure-2.34.0\allure-2.34.0\bin;C:\Users\gyana\Downloads\allure-2.34.0 (1)\allure-2.34.0\bin;C:\MinGW\bin;C:\Program Files\dotnet\;C:\Users\gyana\AppData\Local\Programs\Eclipse Adoptium\jdk-17.0.16.8-hotspot\bin;C:\Users\gyana\AppData\Local\Android\Sdk\platform-tools;C:\Users\gyana\AppData\Roaming\npm;C:\Users\gyana\AppData\Local\Programs\Microsoft VS Code\bin;c:\Users\gyana\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.16+8"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Verify GET request to root endpoint&quot;, &quot;Sample API Tests&quot;](1)" classname="com.nexly.api.runners.TestRunner" time="3.337">
+    <system-out><![CDATA[Test Suite started!
+Test started: runScenario
+
+Scenario: Verify GET request to root endpoint   # file:///C:/Users/gyana/Rest-Assured/test/src/main/resources/feature/app.feature:3
+Starting scenario: Verify GET request to root endpoint
+API endpoint set to: http://localhost:5000
+  âœ” Given I set the API endpoint                # com.nexly.api.stepDefinitions.ApiStepDefinitions.i_set_the_api_endpoint()
+Request method:	GET
+Request URI:	http://localhost:5000/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Accept-Ranges: bytes
+Cache-Control: public, max-age=0
+Last-Modified: Wed, 03 Sep 2025 13:02:03 GMT
+ETag: W/"ad9b-1990fab8765"
+Content-Type: text/html; charset=utf-8
+Content-Length: 44443
+Date: Mon, 22 Sep 2025 05:50:13 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Backend Service Dashboard Of Curacore</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <link rel="shortcut icon" href="https://ddi-dev.com/uploads/backend-is.png" type="image/x-icon"/>
+    <style>
+        :root {
+            --primary-green: #10B981;
+            --secondary-green: #059669;
+            --light-green: #D1FAE5;
+            --accent-green: #34D399;
+            --dark-green: #047857;
+            --emerald: #50C878;
+            --mint: #98FB98;
+            --white: #FFFFFF;
+            --light-gray: #F9FAFB;
+            --gray: #6B7280;
+            --dark-gray: #374151;
+            --success: #22C55E;
+            --warning: #F59E0B;
+            --shadow-light: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            --shadow-medium: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            --shadow-heavy: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            user-select: none;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, var(--light-green) 0%, var(--white) 50%, var(--mint) 100%);
+            height: 100vh;
+            width: 100vw;
+            overflow: hidden;
+            color: var(--dark-gray);
+            position: relative;
+        }
+
+        .background-pattern {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image:
+                radial-gradient(circle at 25% 25%, rgba(16, 185, 129, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 75% 75%, rgba(52, 211, 153, 0.1) 0%, transparent 50%);
+            z-index: 0;
+        }
+
+        .container {
+            height: 100vh;
+            width: 100vw;
+            display: grid;
+            grid-template-areas:
+                "header header"
+                "sidebar main"
+                "sidebar footer";
+            grid-template-rows: auto 1fr auto;
+            grid-template-columns: 300px 1fr;
+            position: relative;
+            z-index: 1;
+        }
+
+        .header {
+            grid-area: header;
+            background: var(--white);
+            padding: 1.5rem 2rem;
+            border-bottom: 1px solid var(--light-green);
+            box-shadow: var(--shadow-light);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-green);
+        }
+
+        .logo .material-icons {
+            font-size: 2rem;
+            color: var(--accent-green);
+        }
+
+        .status-indicator {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: var(--success);
+            color: var(--white);
+            padding: 0.5rem 1rem;
+            border-radius: 25px;
+            font-weight: 500;
+            animation: pulse 2s infinite;
+        }
+
+        .status-indicator .material-icons {
+            font-size: 1.2rem;
+        }
+
+        .sidebar {
+            grid-area: sidebar;
+            background: var(--white);
+            padding: 2rem;
+            border-right: 1px solid var(--light-green);
+            box-shadow: var(--shadow-light);
+            overflow-y: auto;
+        }
+
+        .nav-item {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 0.75rem 1rem;
+            margin-bottom: 0.5rem;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+
+        .nav-item:hover {
+            background: var(--light-green);
+            color: var(--dark-green);
+        }
+
+        .nav-item.active {
+            background: var(--primary-green);
+            color: var(--white);
+        }
+
+        .nav-item .material-icons {
+            font-size: 1.5rem;
+        }
+
+        .main {
+            grid-area: main;
+            padding: 2rem;
+            overflow-y: auto;
+        }
+
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .card {
+            background: var(--white);
+            border-radius: 15px;
+            padding: 2rem;
+            box-shadow: var(--shadow-medium);
+            border: 1px solid var(--light-green);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: linear-gradient(90deg, var(--primary-green), var(--accent-green));
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-heavy);
+        }
+
+        .card-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .card-icon {
+            width: 50px;
+            height: 50px;
+            background: var(--light-green);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--primary-green);
+        }
+
+        .card-icon .material-icons {
+            font-size: 1.8rem;
+        }
+
+        .card-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--dark-gray);
+        }
+
+        .metric {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.75rem 0;
+            border-bottom: 1px solid var(--light-gray);
+        }
+
+        .metric:last-child {
+            border-bottom: none;
+        }
+
+        .metric-label {
+            color: var(--gray);
+            font-weight: 500;
+        }
+
+        .metric-value {
+            font-weight: 600;
+            color: var(--dark-gray);
+        }
+
+        .metric-value.success {
+            color: var(--success);
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: var(--light-gray);
+            border-radius: 4px;
+            overflow: hidden;
+            margin: 1rem 0;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--primary-green), var(--accent-green));
+            transition: width 0.3s ease;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .feature-card {
+            background: var(--white);
+            border-radius: 12px;
+            padding: 1.5rem;
+            text-align: center;
+            box-shadow: var(--shadow-light);
+            border: 1px solid var(--light-green);
+            transition: all 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-medium);
+        }
+
+        .feature-icon {
+            width: 60px;
+            height: 60px;
+            background: var(--light-green);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1rem;
+            color: var(--primary-green);
+        }
+
+        .feature-icon .material-icons {
+            font-size: 2rem;
+        }
+
+        .feature-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: var(--dark-gray);
+        }
+
+        .feature-description {
+            color: var(--gray);
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+
+        .btn-group {
+            display: flex;
+            gap: 1rem;
+            margin-top: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: var(--primary-green);
+            color: var(--white);
+            padding: 0.75rem 1.5rem;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            font-size: 0.9rem;
+        }
+
+        .btn:hover {
+            background: var(--secondary-green);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-medium);
+        }
+
+        .btn-secondary {
+            background: var(--white);
+            color: var(--primary-green);
+            border: 2px solid var(--primary-green);
+        }
+
+        .btn-secondary:hover {
+            background: var(--primary-green);
+            color: var(--white);
+        }
+
+        .footer {
+            grid-area: footer;
+            background: var(--white);
+            padding: 1rem 2rem;
+            border-top: 1px solid var(--light-green);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.9rem;
+            color: var(--gray);
+        }
+
+        .footer-left {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .footer-right {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .live-indicator {
+            width: 8px;
+            height: 8px;
+            background: var(--success);
+            border-radius: 50%;
+            animation: blink 1.5s infinite;
+        }
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.8;
+            }
+        }
+
+        @keyframes blink {
+
+            0%,
+            100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.3;
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .card {
+            animation: fadeIn 0.6s ease-out;
+        }
+
+        /* Base thin scrollbar (Webkit-based) */
+        ::-webkit-scrollbar {
+            width: 1px;
+            height: 1px;
+            transition: all 0.3s ease;
+        }
+
+        /* On hover – increase thickness */
+        html:hover ::-webkit-scrollbar {
+            width: 10px;
+            height: 10px;
+        }
+
+        /* Scrollbar Track */
+        ::-webkit-scrollbar-track {
+            background: var(--white);
+            border-radius: 10px;
+        }
+
+        /* Scrollbar Thumb */
+        ::-webkit-scrollbar-thumb {
+            background: linear-gradient(180deg, var(--primary-green), var(--secondary-green));
+            border-radius: 10px;
+            border: 2px solid var(--white);
+        }
+
+        /* Hover effect on thumb */
+        ::-webkit-scrollbar-thumb:hover {
+            background: linear-gradient(180deg, var(--accent-green), var(--primary-green));
+            transform: scale(1.1);
+        }
+
+        /* Active state */
+        ::-webkit-scrollbar-thumb:active {
+            background: var(--dark-green);
+        }
+
+        /* Hide up/down buttons (WebKit) */
+        ::-webkit-scrollbar-button {
+            display: none;
+            height: 0;
+            width: 0;
+        }
+
+        /* Scrollbar corner */
+        ::-webkit-scrollbar-corner {
+            background: transparent;
+        }
+
+        /* Firefox scrollbar */
+        * {
+            scrollbar-width: thin;
+            scrollbar-color: var(--primary-green) var(--light-green);
+        }
+
+        /* Optional: Specific containers */
+        .sidebar,
+        .main {
+            scrollbar-width: thin;
+            scrollbar-color: var(--primary-green) var(--light-gray);
+        }
+
+        /* Custom scrollbar animations */
+        @keyframes scrollGlow {
+            0% {
+                box-shadow: 0 0 5px rgba(16, 185, 129, 0.3);
+            }
+
+            50% {
+                box-shadow: 0 0 15px rgba(16, 185, 129, 0.6);
+            }
+
+            100% {
+                box-shadow: 0 0 5px rgba(16, 185, 129, 0.3);
+            }
+        }
+
+        .main::-webkit-scrollbar-thumb:active {
+            animation: scrollGlow 0.6s ease-in-out;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                grid-template-areas:
+                    "header"
+                    "main"
+                    "footer";
+                grid-template-rows: auto 1fr auto;
+                grid-template-columns: 1fr;
+            }
+
+            .sidebar {
+                display: none;
+            }
+
+            .main {
+                padding: 1rem;
+            }
+
+            .dashboard-grid {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+
+            .header {
+                padding: 1rem;
+            }
+
+            /* Mobile scrollbar adjustments */
+            ::-webkit-scrollbar {
+                width: 8px;
+                height: 8px;
+            }
+
+            .main::-webkit-scrollbar {
+                width: 6px;
+            }
+        }
+    </style>
+  </head>
+  <body>
+    <div class="background-pattern"/>
+    <div class="container">
+      <header class="header">
+        <div class="logo">
+          <span class="material-icons">cloud_done</span>
+
+                 Service Dashboard Curacore
+                    </div>
+        <div class="status-indicator">
+          <span class="material-icons">check_circle</span>
+
+                All Systems Operational
+                    </div>
+      </header>
+      <nav class="sidebar">
+        <div class="nav-item active">
+          <span class="material-icons">dashboard</span>
+
+                Overview
+                    </div>
+        <div class="nav-item">
+          <span class="material-icons">api</span>
+
+                API Endpoints
+                    </div>
+        <div class="nav-item">
+          <span class="material-icons">security</span>
+
+                Security
+                    </div>
+        <div class="nav-item">
+          <span class="material-icons">storage</span>
+
+                Database
+                    </div>
+        <div class="nav-item">
+          <span class="material-icons">settings</span>
+
+                Configuration
+                    </div>
+        <div class="nav-item">
+          <span class="material-icons">help</span>
+
+                Documentation
+                    </div>
+      </nav>
+      <main class="main">
+        <div class="dashboard-grid">
+          <div class="card">
+            <div class="card-header">
+              <div class="card-icon">
+                <span class="material-icons">speed</span>
+              </div>
+              <h3 class="card-title">System Performance</h3>
+            </div>
+            <div class="metric">
+              <span class="metric-label">Response Time</span>
+              <span class="metric-value success">45ms</span>
+            </div>
+            <div class="metric">
+              <span class="metric-label">Uptime</span>
+              <span class="metric-value success">99.9%</span>
+            </div>
+            <div class="metric">
+              <span class="metric-label">CPU Usage</span>
+              <span class="metric-value">23%</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 23%"/>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <div class="card-icon">
+                <span class="material-icons">memory</span>
+              </div>
+              <h3 class="card-title">Memory &amp; Storage</h3>
+            </div>
+            <div class="metric">
+              <span class="metric-label">RAM Usage</span>
+              <span class="metric-value">4.2GB / 16GB</span>
+            </div>
+            <div class="metric">
+              <span class="metric-label">Disk Space</span>
+              <span class="metric-value">127GB / 500GB</span>
+            </div>
+            <div class="metric">
+              <span class="metric-label">Cache Hit Rate</span>
+              <span class="metric-value success">94.2%</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 26%"/>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <div class="card-icon">
+                <span class="material-icons">network_check</span>
+              </div>
+              <h3 class="card-title">Network &amp; Traffic</h3>
+            </div>
+            <div class="metric">
+              <span class="metric-label">Active Connections</span>
+              <span class="metric-value success">1,247</span>
+            </div>
+            <div class="metric">
+              <span class="metric-label">Requests/Min</span>
+              <span class="metric-value">8,934</span>
+            </div>
+            <div class="metric">
+              <span class="metric-label">Bandwidth</span>
+              <span class="metric-value">2.3MB/s</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 67%"/>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <div class="card-icon">
+                <span class="material-icons">shield</span>
+              </div>
+              <h3 class="card-title">Security Status</h3>
+            </div>
+            <div class="metric">
+              <span class="metric-label">SSL Certificate</span>
+              <span class="metric-value success">Valid</span>
+            </div>
+            <div class="metric">
+              <span class="metric-label">Firewall</span>
+              <span class="metric-value success">Active</span>
+            </div>
+            <div class="metric">
+              <span class="metric-label">Failed Attempts</span>
+              <span class="metric-value">0</span>
+            </div>
+            <div class="metric">
+              <span class="metric-label">Last Security Scan</span>
+              <span class="metric-value">2 hours ago</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <div class="card-icon">
+                <span class="material-icons">storage</span>
+              </div>
+              <h3 class="card-title">Database Health</h3>
+            </div>
+            <div class="metric">
+              <span class="metric-label">Query Time</span>
+              <span class="metric-value success">12ms</span>
+            </div>
+            <div class="metric">
+              <span class="metric-label">Connections</span>
+              <span class="metric-value">85</span>
+            </div>
+            <div class="metric">
+              <span class="metric-label">Errors</span>
+              <span class="metric-value">0</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 18%"/>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <div class="card-icon">
+                <span class="material-icons">groups</span>
+              </div>
+              <h3 class="card-title">User Activity</h3>
+            </div>
+            <div class="metric">
+              <span class="metric-label">Active Users</span>
+              <span class="metric-value success">412</span>
+            </div>
+            <div class="metric">
+              <span class="metric-label">Sign-ups Today</span>
+              <span class="metric-value">57</span>
+            </div>
+            <div class="metric">
+              <span class="metric-label">Avg Session Time</span>
+              <span class="metric-value">5m 23s</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 42%"/>
+            </div>
+          </div>
+        </div>
+        <div class="feature-grid">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <span class="material-icons">flash_on</span>
+            </div>
+            <h4 class="feature-title">Lightning Fast</h4>
+            <p class="feature-description">Optimized for peak performance with advanced caching and load
+                        balancing</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <span class="material-icons">lock</span>
+            </div>
+            <h4 class="feature-title">Enterprise Security</h4>
+            <p class="feature-description">Bank-grade security with encrypted data transmission and secure
+                        authentication</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <span class="material-icons">trending_up</span>
+            </div>
+            <h4 class="feature-title">Auto Scaling</h4>
+            <p class="feature-description">Automatically scales resources based on demand to maintain optimal
+                        performance</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <span class="material-icons">backup</span>
+            </div>
+            <h4 class="feature-title">Reliable Backup</h4>
+            <p class="feature-description">Automated daily backups with 99.99% data recovery guarantee</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <span class="material-icons">insights</span>
+            </div>
+            <h4 class="feature-title">Real-time Analytics</h4>
+            <p class="feature-description">Comprehensive monitoring and analytics dashboard for performance
+                        insights</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <span class="material-icons">support_agent</span>
+            </div>
+            <h4 class="feature-title">24/7 Support</h4>
+            <p class="feature-description">Round-the-clock technical support and monitoring by our expert team
+                    </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <span class="material-icons">code</span>
+            </div>
+            <h4 class="feature-title">Developer Friendly</h4>
+            <p class="feature-description">Clean APIs, robust documentation, and full SDK support for rapid
+                        integration</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <span class="material-icons">update</span>
+            </div>
+            <h4 class="feature-title">Seamless Updates</h4>
+            <p class="feature-description">Zero-downtime deployments with automated version rollbacks and
+                        changelogs</p>
+          </div>
+        </div>
+        <div class="btn-group">
+          <button type="submit" class="btn">
+            <span class="material-icons">description</span>
+
+                    API Documentation
+                          </button>
+          <button type="submit" class="btn btn-secondary">
+            <span class="material-icons">analytics</span>
+
+                    View Metrics
+                          </button>
+          <button type="submit" class="btn btn-secondary">
+            <span class="material-icons">settings</span>
+
+                    System Settings
+                          </button>
+          <button type="submit" class="btn btn-secondary">
+            <span class="material-icons">download</span>
+
+                    Download Logs
+                          </button>
+          <button type="submit" class="btn btn-secondary">
+            <span class="material-icons">bug_report</span>
+
+                    Report Issue
+                          </button>
+          <button type="submit" class="btn btn-secondary">
+            <span class="material-icons" style="width: 44px;">support</span>
+
+                    Contact Us
+                          </button>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="footer-left">
+          <span>Server: production-01</span>
+          <span>Port: 5000</span>
+          <span>Version: 2.4.1</span>
+        </div>
+        <div class="footer-right">
+          <div class="live-indicator"/>
+          <span>Live since: ${new Date().toLocaleString()}</span>
+        </div>
+      </footer>
+    </div>
+    <script>
+        // Real-time data simulation
+        class DashboardManager {
+            constructor() {
+                this.isRunning = true;
+                this.metricsData = {
+                    responseTime: 45,
+                    uptime: 99.9,
+                    cpuUsage: 23,
+                    ramUsage: 4.2,
+                    ramTotal: 16,
+                    diskUsage: 127,
+                    diskTotal: 500,
+                    cacheHitRate: 94.2,
+                    activeConnections: 1247,
+                    requestsPerMin: 8934,
+                    bandwidth: 2.3,
+                    failedAttempts: 0
+                };
+                this.init();
+            }
+
+            init() {
+                this.setupNavigation();
+                this.startRealTimeUpdates();
+                this.setupInteractiveElements();
+                this.animateProgressBars();
+                this.setupNotifications();
+            }
+
+            setupNavigation() {
+                const navItems = document.querySelectorAll('.nav-item');
+                navItems.forEach(item =&gt; {
+                    item.addEventListener('click', (e) =&gt; {
+                        // Remove active class from all items
+                        navItems.forEach(nav =&gt; nav.classList.remove('active'));
+                        // Add active class to clicked item
+                        e.currentTarget.classList.add('active');
+
+                        // Simulate navigation with animation
+                        this.animateContentTransition();
+                    });
+                });
+            }
+
+            setupInteractiveElements() {
+                const buttons = document.querySelectorAll('.btn');
+                buttons.forEach(btn =&gt; {
+                    btn.addEventListener('click', (e) =&gt; {
+                        const btnText = e.currentTarget.textContent.trim();
+                        this.handleButtonClick(btnText);
+                    });
+                });
+
+                // Add click effects to cards
+                const cards = document.querySelectorAll('.card, .feature-card');
+                cards.forEach(card =&gt; {
+                    card.addEventListener('click', () =&gt; {
+                        card.style.transform = 'scale(0.98)';
+                        setTimeout(() =&gt; {
+                            card.style.transform = '';
+                        }, 150);
+                    });
+                });
+            }
+
+            handleButtonClick(buttonText) {
+                switch (buttonText) {
+                    case 'API Documentation':
+                        this.showNotification('Opening API Documentation...', 'info');
+                        break;
+                    case 'View Metrics':
+                        this.showNotification('Loading detailed metrics...', 'info');
+                        this.updateMetricsDisplay();
+                        break;
+                    case 'System Settings':
+                        this.showNotification('Accessing system settings...', 'info');
+                        break;
+                    case 'Download Logs':
+                        this.showNotification('Preparing log files for download...', 'info');
+                        break;
+                }
+            }
+
+            startRealTimeUpdates() {
+                setInterval(() =&gt; {
+                    if (this.isRunning) {
+                        this.updateMetrics();
+                        this.updateProgressBars();
+                        this.updateTimestamp();
+                    }
+                }, 3000); // Update every 3 seconds
+
+                // Update connections and requests more frequently
+                setInterval(() =&gt; {
+                    if (this.isRunning) {
+                        this.updateLiveMetrics();
+                    }
+                }, 1000); // Update every second
+            }
+
+            updateMetrics() {
+                // Simulate realistic metric changes
+                this.metricsData.responseTime = Math.max(20, this.metricsData.responseTime + (Math.random() - 0.5) * 10);
+                this.metricsData.cpuUsage = Math.max(10, Math.min(80, this.metricsData.cpuUsage + (Math.random() - 0.5) * 5));
+                this.metricsData.ramUsage = Math.max(2, Math.min(14, this.metricsData.ramUsage + (Math.random() - 0.5) * 0.5));
+                this.metricsData.cacheHitRate = Math.max(85, Math.min(99, this.metricsData.cacheHitRate + (Math.random() - 0.5) * 2));
+                this.metricsData.bandwidth = Math.max(1, Math.min(10, this.metricsData.bandwidth + (Math.random() - 0.5) * 0.5));
+
+                // Update display
+                this.updateMetricsDisplay();
+            }
+
+            updateLiveMetrics() {
+                // Update active connections
+                this.metricsData.activeConnections = Math.max(800, Math.min(2000,
+                    this.metricsData.activeConnections + Math.floor((Math.random() - 0.5) * 100)));
+
+                // Update requests per minute
+                this.metricsData.requestsPerMin = Math.max(5000, Math.min(15000,
+                    this.metricsData.requestsPerMin + Math.floor((Math.random() - 0.5) * 1000)));
+
+                // Update display
+                const connectionsElement = document.querySelector('.metric-value[data-metric="connections"]');
+                const requestsElement = document.querySelector('.metric-value[data-metric="requests"]');
+
+                if (connectionsElement) {
+                    connectionsElement.textContent = this.metricsData.activeConnections.toLocaleString();
+                }
+                if (requestsElement) {
+                    requestsElement.textContent = this.metricsData.requestsPerMin.toLocaleString();
+                }
+            }
+
+            updateMetricsDisplay() {
+                // Update response time
+                const responseTimeElement = document.querySelector('.metric-value[data-metric="response-time"]');
+                if (responseTimeElement) {
+                    responseTimeElement.textContent = Math.round(this.metricsData.responseTime) + 'ms';
+                }
+
+                // Update CPU usage
+                const cpuElement = document.querySelector('.metric-value[data-metric="cpu"]');
+                if (cpuElement) {
+                    cpuElement.textContent = Math.round(this.metricsData.cpuUsage) + '%';
+                }
+
+                // Update RAM usage
+                const ramElement = document.querySelector('.metric-value[data-metric="ram"]');
+                if (ramElement) {
+                    ramElement.textContent = `${this.metricsData.ramUsage.toFixed(1)}GB / ${this.metricsData.ramTotal}GB`;
+                }
+
+                // Update cache hit rate
+                const cacheElement = document.querySelector('.metric-value[data-metric="cache"]');
+                if (cacheElement) {
+                    cacheElement.textContent = this.metricsData.cacheHitRate.toFixed(1) + '%';
+                }
+
+                // Update bandwidth
+                const bandwidthElement = document.querySelector('.metric-value[data-metric="bandwidth"]');
+                if (bandwidthElement) {
+                    bandwidthElement.textContent = this.metricsData.bandwidth.toFixed(1) + 'MB/s';
+                }
+            }
+
+            updateProgressBars() {
+                const progressBars = document.querySelectorAll('.progress-fill');
+                progressBars.forEach((bar, index) =&gt; {
+                    let percentage;
+                    switch (index) {
+                        case 0: // CPU usage
+                            percentage = this.metricsData.cpuUsage;
+                            break;
+                        case 1: // RAM usage
+                            percentage = (this.metricsData.ramUsage / this.metricsData.ramTotal) * 100;
+                            break;
+                        case 2: // Network usage (simulated)
+                            percentage = (this.metricsData.bandwidth / 10) * 100;
+                            break;
+                        default:
+                            percentage = Math.random() * 100;
+                    }
+                    bar.style.width = Math.min(100, Math.max(0, percentage)) + '%';
+                });
+            }
+
+            updateTimestamp() {
+                const timestampElement = document.querySelector('.footer-right span:last-child');
+                if (timestampElement) {
+                    timestampElement.textContent = `Live since: ${new Date().toLocaleString()}`;
+                }
+            }
+
+            animateProgressBars() {
+                const progressBars = document.querySelectorAll('.progress-fill');
+                progressBars.forEach((bar, index) =&gt; {
+                    setTimeout(() =&gt; {
+                        bar.style.transition = 'width 1s ease-in-out';
+                    }, index * 200);
+                });
+            }
+
+            animateContentTransition() {
+                const mainContent = document.querySelector('.main');
+                mainContent.style.opacity = '0.7';
+                mainContent.style.transform = 'translateY(10px)';
+
+                setTimeout(() =&gt; {
+                    mainContent.style.opacity = '1';
+                    mainContent.style.transform = 'translateY(0)';
+                }, 200);
+            }
+
+            setupNotifications() {
+                // Create notification container
+                const notificationContainer = document.createElement('div');
+                notificationContainer.className = 'notification-container';
+                notificationContainer.style.cssText = `
+                    position: fixed;
+                    top: 20px;
+                    right: 20px;
+                    z-index: 1000;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                `;
+                document.body.appendChild(notificationContainer);
+            }
+
+            showNotification(message, type = 'success') {
+                const notification = document.createElement('div');
+                notification.className = `notification notification-${type}`;
+
+                const bgColor = type === 'success' ? 'var(--success)' :
+                    type === 'warning' ? 'var(--warning)' :
+                        'var(--primary-green)';
+
+                notification.style.cssText = `
+                    background: ${bgColor};
+                    color: white;
+                    padding: 1rem 1.5rem;
+                    border-radius: 10px;
+                    box-shadow: var(--shadow-medium);
+                    transform: translateX(100%);
+                    transition: transform 0.3s ease;
+                    display: flex;
+                    align-items: center;
+                    gap: 0.5rem;
+                    font-weight: 500;
+                    min-width: 300px;
+                `;
+
+                notification.innerHTML = `
+                    &lt;span class="material-icons"&gt;${type === 'success' ? 'check_circle' :
+                        type === 'warning' ? 'warning' : 'info'}&lt;/span&gt;
+                    ${message}
+                `;
+
+                const container = document.querySelector('.notification-container');
+                container.appendChild(notification);
+
+                // Animate in
+                setTimeout(() =&gt; {
+                    notification.style.transform = 'translateX(0)';
+                }, 100);
+
+                // Animate out and remove
+                setTimeout(() =&gt; {
+                    notification.style.transform = 'translateX(100%)';
+                    setTimeout(() =&gt; {
+                        container.removeChild(notification);
+                    }, 300);
+                }, 3000);
+            }
+
+            // System status checker
+            checkSystemHealth() {
+                const checks = [
+                    { name: 'API Endpoints', status: 'healthy' },
+                    { name: 'Database Connection', status: 'healthy' },
+                    { name: 'Redis Cache', status: 'healthy' },
+                    { name: 'External Services', status: 'healthy' },
+                    { name: 'SSL Certificate', status: 'healthy' }
+                ];
+
+                return checks;
+            }
+
+            // Simulate system alerts
+            simulateAlerts() {
+                const alerts = [
+                    'High CPU usage detected on server-02',
+                    'SSL certificate expires in 30 days',
+                    'Database backup completed successfully',
+                    'New security patch available',
+                    'Performance optimization completed'
+                ];
+
+                setInterval(() =&gt; {
+                    if (Math.random() &lt; 0.1) { // 10% chance every interval
+                        const randomAlert = alerts[Math.floor(Math.random() * alerts.length)];
+                        this.showNotification(randomAlert, 'info');
+                    }
+                }, 30000); // Check every 30 seconds
+            }
+        }
+
+        // Utility functions
+        function formatBytes(bytes) {
+            const sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB'];
+            if (bytes === 0) return '0 Bytes';
+            const i = Math.floor(Math.log(bytes) / Math.log(1024));
+            return Math.round(bytes / Math.pow(1024, i) * 100) / 100 + ' ' + sizes[i];
+        }
+
+        function formatUptime(seconds) {
+            const days = Math.floor(seconds / 86400);
+            const hours = Math.floor((seconds % 86400) / 3600);
+            const minutes = Math.floor((seconds % 3600) / 60);
+            return `${days}d ${hours}h ${minutes}m`;
+        }
+
+        // Keyboard shortcuts
+        document.addEventListener('keydown', (e) =&gt; {
+            if (e.ctrlKey || e.metaKey) {
+                switch (e.key) {
+                    case '1':
+                        e.preventDefault();
+                        document.querySelector('.nav-item').click();
+                        break;
+                    case 'r':
+                        e.preventDefault();
+                        location.reload();
+                        break;
+                }
+            }
+        });
+
+        // Initialize dashboard when DOM is loaded
+        document.addEventListener('DOMContentLoaded', () =&gt; {
+            // Add data attributes to metric values for easier targeting
+            const metricValues = document.querySelectorAll('.metric-value');
+            metricValues.forEach((element, index) =&gt; {
+                const metricText = element.parentElement.querySelector('.metric-label').textContent.toLowerCase();
+                if (metricText.includes('response')) {
+                    element.setAttribute('data-metric', 'response-time');
+                } else if (metricText.includes('cpu')) {
+                    element.setAttribute('data-metric', 'cpu');
+                } else if (metricText.includes('ram')) {
+                    element.setAttribute('data-metric', 'ram');
+                } else if (metricText.includes('cache')) {
+                    element.setAttribute('data-metric', 'cache');
+                } else if (metricText.includes('connections')) {
+                    element.setAttribute('data-metric', 'connections');
+                } else if (metricText.includes('requests')) {
+                    element.setAttribute('data-metric', 'requests');
+                } else if (metricText.includes('bandwidth')) {
+                    element.setAttribute('data-metric', 'bandwidth');
+                }
+            });
+
+            // Initialize dashboard manager
+            const dashboard = new DashboardManager();
+
+            // Start alert simulation
+            dashboard.simulateAlerts();
+
+            // Welcome notification
+            setTimeout(() =&gt; {
+                dashboard.showNotification('Dashboard loaded successfully!', 'success');
+            }, 1000);
+
+            // Performance tip
+            setTimeout(() =&gt; {
+                dashboard.showNotification('Tip: Use Ctrl+1 to navigate to overview', 'info');
+            }, 5000);
+        });
+
+        // Handle visibility change (pause updates when tab is not active)
+        document.addEventListener('visibilitychange', () =&gt; {
+            const dashboard = window.dashboardInstance;
+            if (dashboard) {
+                dashboard.isRunning = !document.hidden;
+            }
+        });
+
+        // Service Worker registration (for PWA capabilities)
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () =&gt; {
+                navigator.serviceWorker.register('/sw.js')
+                    .then((registration) =&gt; {
+                        console.log('SW registered: ', registration);
+                    })
+                    .catch((registrationError) =&gt; {
+                        console.log('SW registration failed: ', registrationError);
+                    });
+            });
+        }
+    </script>
+  </body>
+</html>
+  âœ” When I send a GET request to "/"            # com.nexly.api.stepDefinitions.ApiStepDefinitions.i_send_a_get_request_to(java.lang.String)
+  âœ” Then the response status code should be 200 # com.nexly.api.stepDefinitions.ApiStepDefinitions.the_response_status_code_should_be(java.lang.Integer)
+Finished scenario: Verify GET request to root endpoint with status: PASSED
+]]></system-out>
+    <system-err><![CDATA[[main] INFO org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+]]></system-err>
+  </testcase>
+</testsuite>
